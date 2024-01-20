@@ -120,16 +120,19 @@ John's wallet supports BIP 49, which is designed for SegWit compatibility in a P
 By using BIP 49, John benefits from lower transaction fees compared to traditional addresses and improved transaction speed due to SegWit's efficiency in block space usage. This is particularly beneficial for a business with frequent transactions.
 
 ### Example 3: BIP 84 (Native SegWit Bech32 Addresses)
-#### Scenario: Maximizing Efficiency and Future-Proofing
+#### Scenario: Maximizing Efficiency and Exploring Testnets
 
 ##### Context
-Lisa is a tech-savvy investor who keeps up with the latest developments in cryptocurrency technology. She wants to use the most advanced and efficient method for managing her Bitcoin transactions.
+Lisa is a tech-savvy investor who keeps up with the latest developments in cryptocurrency technology. She wants to use the most advanced and efficient method for managing her Bitcoin transactions. Additionally, Lisa is interested in exploring Bitcoin testnets for testing and educational purposes.
 
 ##### Use Case
-Lisa opts for a wallet that implements BIP 84, which enables the creation of native SegWit addresses that start with 'bc1'. These are Bech32 addresses, which offer benefits such as more efficient block weight usage and better error detection. Her derivation path is: `m/84'/0'/0'`.
+Lisa opts for a wallet that implements BIP 84, which enables the creation of native SegWit addresses that start with 'bc1'. These are Bech32 addresses, which offer benefits such as more efficient block weight usage and better error detection. For her main Bitcoin transactions, her derivation path is: `m/84'/0'/0'`.
+
+Moreover, Lisa is also experimenting with Bitcoin testnet. Testnets are crucial for trying out transactions without using real Bitcoin, which is an ideal environment for testing and learning. For her testnet transactions, she uses the derivation path `m/84'/1'/0'`. This path is specifically designated for testnet in BIP 84, allowing her to differentiate between real and test transactions easily.
 
 ##### Advantage
-Using BIP 84, Lisa experiences lower fees and faster transactions. She is also future-proofing her wallet as the industry moves towards broader adoption of SegWit.
+Using BIP 84, Lisa experiences lower fees and faster transactions in her main wallet. With the addition of the testnet path, she can safely experiment and learn without risking her actual Bitcoin. This approach not only future-proofs her wallet as the industry moves towards broader adoption of SegWit but also enhances her understanding and proficiency in managing digital assets.
+
 
 ### Conclusion
 In each of these scenarios, the use of different derivation paths (BIP 44, BIP 49, and BIP 84) reflects a specific need and functionality in managing cryptocurrencies:
