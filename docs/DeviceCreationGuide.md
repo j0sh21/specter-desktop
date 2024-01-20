@@ -42,11 +42,21 @@ Welcome to the Device Creation Guide for Specter Hardware Wallets. In this compr
   - Ledger  <img src="/src/cryptoadvance/specter/static/img/devices/ledger_icon.svg" alt="Ledger Wallet" width="25" height="25"/> Known for its security and sleek design, Ledger wallets support a wide range of cryptocurrencies.
   - Trezor  <img src="/src/cryptoadvance/specter/static/img/devices/trezor_icon.svg" alt="Trezor Wallet" width="25" height="25"/> One of the first hardware wallets in the market, renowned for its ease of use and robust security measures.
   - Keystone <img src="/src/cryptoadvance/specter/static/img/devices/keystone_icon.svg" alt="Keystone Wallet" width="25" height="25"/> Formerly known as Cobo Vault, Keystone wallets offer a high-security solution with air-gapped QR code signing. 
-
   
 ## Step-by-Step Guide for Device Creation in Specter
 
-- **Detailed Instructions:** A step-by-step guide can be found [here](https://docs.specter.solutions/desktop/#add-a-new-device). Keep in mind to connect to the BTC network first [instructions here](https://docs.specter.solutions/desktop/#select-how-to-connect-to-bitcoin-network).
+### Add a new device
+Select signing device
+![image](https://user-images.githubusercontent.com/47259243/223428531-2f3a04d4-177d-4626-8108-b66234892541.png)
+Upload public keys
+![image](https://user-images.githubusercontent.com/47259243/223427859-c06faec5-78ab-4592-9ba6-4018978280cc.png)
+
+### Select how to connect to Bitcoin network
+![image](https://user-images.githubusercontent.com/47259243/223425374-a3e68ac7-2bdb-48fe-a53b-59f235c59bd1.png)
+Electrum server or...
+![image](https://user-images.githubusercontent.com/47259243/223426046-dd225f00-ba18-45cb-871a-40efd7eefc1e.png)
+...via Bitcoin Core node.
+![image](https://user-images.githubusercontent.com/47259243/223426366-c3ba758a-34c4-4ce1-8aae-cf0cc335a892.png)
 
 ## Understanding Derivation Paths
 
