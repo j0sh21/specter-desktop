@@ -78,6 +78,7 @@ These default settings cover the needs of most users, simplifying the wallet set
 
 3. **Compatibility:**
       - Using the wrong derivation path can lead to compatibility issues, making it challenging to access your funds. It's crucial to ensure that the path you choose is supported by your wallet software and the services you intend to use. Staying informed about updates and changes in the cryptocurrency ecosystem is essential to avoid compatibility pitfalls.
+      - To assist with this, common derivation paths for different wallets can be found at [Wallets Recovery](https://walletsrecovery.org/). This resource can be useful for understanding the standard practices of various wallets and ensuring compatibility.
       - Ensure that the path you choose is supported by your wallet software and the services you intend to use.
 
 5. **Security Risks:**
