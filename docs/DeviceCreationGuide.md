@@ -62,7 +62,14 @@ Electrum server or...
 
 ### Concept Explanation
 
-- Understanding derivation paths is fundamental to managing the security of your digital assets. In this section, we'll provide you with an overview of what derivation paths are and why they matter. We'll also introduce key paths like BIP 44 (for multi-account hierarchy), BIP 49 (for SegWit compatibility), and BIP 84 (for native SegWit addresses). Each of these paths caters to different Bitcoin address types and plays a crucial role in organizing and securing your cryptocurrencies, especially within hardware wallets.
+Understanding derivation paths is fundamental to managing the security of your digital assets. In this section, we'll provide you with an overview of what derivation paths are and why they matter. We'll also introduce key paths like BIP 44 (for multi-account hierarchy), BIP 49 (for SegWit compatibility), and BIP 84 (for native SegWit addresses). Each of these paths caters to different Bitcoin address types and plays a crucial role in organizing and securing your cryptocurrencies, especially within hardware wallets.
+
+By default, Specter Wallets are set up with:
+
+  - BIP 44 for traditional multisig wallets.
+  - BIP 49 or BIP 84 for SegWit singlesig wallets.
+
+These default settings cover the needs of most users, simplifying the wallet setup and usage process. However, understanding these paths can enhance your ability to tailor the wallet to your specific needs, especially if you have advanced security considerations.
 
 ### Challenges and Best Practices
 
