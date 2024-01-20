@@ -24,8 +24,8 @@ Welcome to the Device Creation Guide for Specter Hardware Wallets. In this compr
 - **User background:** Bob, a frequent user of cryptocurrency for transactions, often finds himself in public places like coffee shops or conferences. He is concerned about the security risks associated with connecting his wallet to public Wi-Fi or potentially compromised devices.
 - **Use Case:** Bob uses a QR Code wallet, which provides enhanced security through minimal direct connections. When making transactions, he simply scans the QR code displayed by his wallet. This method eliminates the need to connect to potentially insecure networks or devices, significantly reducing the risk of digital asset theft. The QR Code wallet’s ability to operate with minimal connectivity makes it an excellent choice for secure, hassle-free transactions in public settings.
 - **Supported Devices:**
-        - Jade  <img src="/src/cryptoadvance/specter/static/img/devices/jade_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: A budget-friendly hardware wallet with QR code functionality for secure and offline transactions.
-        - SeedSigner  <img src="/src/cryptoadvance/specter/static/img/devices/seedsigner_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: An open-source project that focuses on creating a secure, offline transaction signing device using QR codes.
+  - Jade  <img src="/src/cryptoadvance/specter/static/img/devices/jade_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: A budget-friendly hardware wallet with QR code functionality for secure and offline transactions.
+  - SeedSigner  <img src="/src/cryptoadvance/specter/static/img/devices/seedsigner_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: An open-source project that focuses on creating a secure, offline transaction signing device using QR codes.
 
 ### USB Wallets
 
