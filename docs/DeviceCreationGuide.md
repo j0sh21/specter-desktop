@@ -34,11 +34,12 @@ Welcome to the Device Creation Guide for Specter Hardware Wallets. In this compr
 - **User background:** Carol, a small business owner, accepts cryptocurrencies in her store. She needs a wallet that is both easy to use and compatible with various devices since she regularly deals with different types of transactions.
 - **Use Case:** Carol chooses a USB wallet for its user-friendly interface and direct connectivity. The USB wallet's plug-and-play nature makes it simple to connect to her store's point-of-sale system or her personal computer. Its compatibility with various devices allows her to efficiently manage transactions without the need for specialized hardware. The USB wallet's intuitive interface makes it easy for Carol to navigate, making it an ideal choice for her everyday business transactions.
 - **Supported Devices:**
-        - BitBox02  <img src="/src/cryptoadvance/specter/static/img/devices/bitbox02_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: Swiss-made hardware wallet, offering a blend of security and simplicity.
-        - KeepKey  <img src="/src/cryptoadvance/specter/static/img/devices/keepkey_icon.svg" alt="Keystone Wallet" width="25" height="25"/>: A user-friendly wallet with a large display, providing a secure environment for cryptocurrency storage and transactions.
-        - Ledger  <img src="/src/cryptoadvance/specter/static/img/devices/ledger_icon.svg" alt="Ledger Wallet" width="25" height="25"/>: Known for its security and sleek design, Ledger wallets support a wide range of cryptocurrencies.
-        - Trezor  <img src="/src/cryptoadvance/specter/static/img/devices/trezor_icon.svg" alt="Trezor Wallet" width="25" height="25"/>: One of the first hardware wallets in the market, renowned for its ease of use and robust security measures.
-        - Keystone <img src="/src/cryptoadvance/specter/static/img/devices/keystone_icon.svg" alt="Keystone Wallet" width="25" height="25"/>: Formerly known as Cobo Vault, Keystone wallets offer a high-security solution with air-gapped QR code signing. 
+
+  - BitBox02  <img src="/src/cryptoadvance/specter/static/img/devices/bitbox02_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: Swiss-made hardware wallet, offering a blend of security and simplicity.
+  - KeepKey  <img src="/src/cryptoadvance/specter/static/img/devices/keepkey_icon.svg" alt="Keystone Wallet" width="25" height="25"/>: A user-friendly wallet with a large display, providing a secure environment for cryptocurrency storage and transactions.
+  - Ledger  <img src="/src/cryptoadvance/specter/static/img/devices/ledger_icon.svg" alt="Ledger Wallet" width="25" height="25"/>: Known for its security and sleek design, Ledger wallets support a wide range of cryptocurrencies.
+  - Trezor  <img src="/src/cryptoadvance/specter/static/img/devices/trezor_icon.svg" alt="Trezor Wallet" width="25" height="25"/>: One of the first hardware wallets in the market, renowned for its ease of use and robust security measures.
+  - Keystone <img src="/src/cryptoadvance/specter/static/img/devices/keystone_icon.svg" alt="Keystone Wallet" width="25" height="25"/>: Formerly known as Cobo Vault, Keystone wallets offer a high-security solution with air-gapped QR code signing. 
 
   
 ## Step-by-Step Guide for Device Creation in Specter
