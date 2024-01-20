@@ -74,19 +74,18 @@ These default settings cover the needs of most users, simplifying the wallet set
 ### Challenges and Best Practices
 
 1. **Complexity:** 
-   -Derivation paths, especially when considering various Bitcoin address types like BIP 44, BIP 49, and BIP 84, can be intricate. The challenge lies in comprehending the nuances of each path and selecting the one that aligns with your specific use case. Best practice here is to educate yourself thoroughly and seek expert advice if needed.
+   - Derivation paths, especially when considering various Bitcoin address types like BIP 44, BIP 49, and BIP 84, can be intricate. The challenge lies in comprehending the nuances of each path and selecting the one that aligns with your specific use case. Best practice here is to educate yourself thoroughly and seek expert advice if needed.
 
 3. **Compatibility:**
-      -Using the wrong derivation path can lead to compatibility issues, making it challenging to access your funds. It's crucial to ensure that the path you choose is supported by your wallet software and the services you intend to use. Staying informed about updates and changes in the cryptocurrency ecosystem is essential to avoid compatibility pitfalls.
-
+      - Using the wrong derivation path can lead to compatibility issues, making it challenging to access your funds. It's crucial to ensure that the path you choose is supported by your wallet software and the services you intend to use. Staying informed about updates and changes in the cryptocurrency ecosystem is essential to avoid compatibility pitfalls.
       - Ensure that the path you choose is supported by your wallet software and the services you intend to use.
 
 5. **Security Risks:**
-      -Incorrectly managed derivation paths can introduce security risks. For instance, sharing your master public key (xpub) derived from an account with a third party may expose all the addresses generated from it. Best practice involves limiting the exposure of sensitive information and adopting a "need-to-know" approach when sharing keys or information related to derivation paths.
+      - Incorrectly managed derivation paths can introduce security risks. For instance, sharing your master public key (xpub) derived from an account with a third party may expose all the addresses generated from it. Best practice involves limiting the exposure of sensitive information and adopting a "need-to-know" approach when sharing keys or information related to derivation paths.
       - Limit the exposure of sensitive information and adopt a "need-to-know" approach when sharing keys or information related to derivation paths.
 
 7. **Backup Strategies:**
-   -Derivation paths affect how you back up your wallet. Implementing a robust backup strategy that includes the derivation path information is essential. Best practice is to maintain secure backups and periodically test your recovery process to ensure you can regain access to your digital assets if the need arises.
+   - Derivation paths affect how you back up your wallet. Implementing a robust backup strategy that includes the derivation path information is essential. Best practice is to maintain secure backups and periodically test your recovery process to ensure you can regain access to your digital assets if the need arises.
    - Implementing a robust backup strategy that includes the derivation path information is essential.
 
 9. **Keeping Pace with Changes:** 
