@@ -17,7 +17,8 @@ Welcome to the Device Creation Guide for Specter Hardware Wallets. In this compr
         - Cobo: Designed for durability and security, Cobo is a multi-cryptocurrency hardware wallet with SD-Card support for backup and recovery. (Image: /src/cryptoadvance/specter/static/img/devices/cobo_icon.svg)
         - Passport: This device emphasizes user-friendly design and privacy, offering air-gapped operation via QR codes and SD-Card backup. (Image: /src/cryptoadvance/specter/static/img/devices/passport_icon.svg)
 
-![Keystone Wallet](/src/cryptoadvance/specter/static/img/devices/keystone_icon.svg)
+
+
 
 
 ### QR Code Wallets
@@ -40,7 +41,7 @@ Welcome to the Device Creation Guide for Specter Hardware Wallets. In this compr
         - KeepKey: A user-friendly wallet with a large display, providing a secure environment for cryptocurrency storage and transactions. (Image: /src/cryptoadvance/specter/static/img/devices/keepkey_icon.svg)
         - Ledger: Known for its security and sleek design, Ledger wallets support a wide range of cryptocurrencies. (Image: /src/cryptoadvance/specter/static/img/devices/ledger_icon.svg)
         - Trezor: One of the first hardware wallets in the market, renowned for its ease of use and robust security measures. (Image: /src/cryptoadvance/specter/static/img/devices/trezor_icon.svg)
-        - Keystone: Formerly known as Cobo Vault, Keystone wallets offer a high-security solution with air-gapped QR code signing. (Image: /src/cryptoadvance/specter/static/img/devices/keystone_icon.svg)
+        - Keystone: Formerly known as Cobo Vault, Keystone wallets offer a high-security solution with air-gapped QR code signing. ![alt text](/src/cryptoadvance/specter/static/img/devices/keystone_icon.svg){:height="25px" width="25px"}
   
 ## Step-by-Step Guide for Device Creation in Specter
 
