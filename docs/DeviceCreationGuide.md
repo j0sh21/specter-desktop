@@ -91,7 +91,7 @@ These default settings cover the needs of most users, simplifying the wallet set
 9. **Keeping Pace with Changes:** 
    - The cryptocurrency landscape is dynamic, with new developments and standards emerging regularly. Staying informed about changes to derivation paths, wallet software updates, and security best practices is an ongoing challenge. Best practice here is to remain actively engaged with the cryptocurrency community, subscribe to updates from wallet providers, and continuously educate yourself.
 
-### Example 1: BIP 44 (Hierarchical Deterministic Wallets)
+### **Example 1: BIP 44** (Hierarchical Deterministic Wallets)
 #### Scenario: Multiple Account Management
 
 ##### Context
