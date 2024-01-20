@@ -18,7 +18,6 @@ Welcome to the Device Creation Guide for Specter Hardware Wallets. In this compr
   - Cobo  <img src="/src/cryptoadvance/specter/static/img/devices/cobo_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/> Designed for durability and security, Cobo is a multi-cryptocurrency hardware wallet with SD-Card support for backup and recovery. (Image: /src/cryptoadvance/specter/static/img/devices/)
   - Passport  <img src="/src/cryptoadvance/specter/static/img/devices/passport_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/> This device emphasizes user-friendly design and privacy, offering air-gapped operation via QR codes and SD-Card backup. (Image: /src/cryptoadvance/specter/static/img/devices/)
 
-
 ### QR Code Wallets
 
 - **Functionality:** QR code wallets operate differently, providing enhanced security through minimal direct connections with other devices. Learn how they work and why this matters.
@@ -42,6 +41,7 @@ Welcome to the Device Creation Guide for Specter Hardware Wallets. In this compr
   - Ledger  <img src="/src/cryptoadvance/specter/static/img/devices/ledger_icon.svg" alt="Ledger Wallet" width="25" height="25"/> Known for its security and sleek design, Ledger wallets support a wide range of cryptocurrencies.
   - Trezor  <img src="/src/cryptoadvance/specter/static/img/devices/trezor_icon.svg" alt="Trezor Wallet" width="25" height="25"/> One of the first hardware wallets in the market, renowned for its ease of use and robust security measures.
   - Keystone <img src="/src/cryptoadvance/specter/static/img/devices/keystone_icon.svg" alt="Keystone Wallet" width="25" height="25"/> Formerly known as Cobo Vault, Keystone wallets offer a high-security solution with air-gapped QR code signing. 
+
   
 ## Step-by-Step Guide for Device Creation in Specter
 
@@ -57,6 +57,7 @@ Electrum server or...
 ![image](https://user-images.githubusercontent.com/47259243/223426046-dd225f00-ba18-45cb-871a-40efd7eefc1e.png)
 ...via Bitcoin Core node.
 ![image](https://user-images.githubusercontent.com/47259243/223426366-c3ba758a-34c4-4ce1-8aae-cf0cc335a892.png)
+
 
 ## Understanding Derivation Paths
 
@@ -76,48 +77,44 @@ These default settings cover the needs of most users, simplifying the wallet set
 1. **Complexity:** 
    - Derivation paths, especially when considering various Bitcoin address types like BIP 44, BIP 49, and BIP 84, can be intricate. The challenge lies in comprehending the nuances of each path and selecting the one that aligns with your specific use case. Best practice here is to educate yourself thoroughly and seek expert advice if needed.
 
-3. **Compatibility:**
+2. **Compatibility:**
       - Using the wrong derivation path can lead to compatibility issues, making it challenging to access your funds. It's crucial to ensure that the path you choose is supported by your wallet software and the services you intend to use. Staying informed about updates and changes in the cryptocurrency ecosystem is essential to avoid compatibility pitfalls.
       - To assist with this, common derivation paths for different wallets can be found at [Wallets Recovery](https://walletsrecovery.org/). This resource can be useful for understanding the standard practices of various wallets and ensuring compatibility.
       - Ensure that the path you choose is supported by your wallet software and the services you intend to use.
 
-5. **Security Risks:**
+3. **Security Risks:**
       - Incorrectly managed derivation paths can introduce security risks. For instance, sharing your master public key (xpub) derived from an account with a third party may expose all the addresses generated from it. Best practice involves limiting the exposure of sensitive information and adopting a "need-to-know" approach when sharing keys or information related to derivation paths.
       - Limit the exposure of sensitive information and adopt a "need-to-know" approach when sharing keys or information related to derivation paths.
 
-7. **Backup Strategies:**
+4. **Backup Strategies:**
    - Derivation paths affect how you back up your wallet. Implementing a robust backup strategy that includes the derivation path information is essential. Best practice is to maintain secure backups and periodically test your recovery process to ensure you can regain access to your digital assets if the need arises.
    - Implementing a robust backup strategy that includes the derivation path information is essential.
 
-9. **Keeping Pace with Changes:** 
-   - The cryptocurrency landscape is dynamic, with new developments and standards emerging regularly. Staying informed about changes to derivation paths, wallet software updates, and security best practices is an ongoing challenge. Best practice here is to remain actively engaged with the cryptocurrency community, subscribe to updates from wallet providers, and continuously educate yourself.
-
-### **Example 1: BIP 44** (Hierarchical Deterministic Wallets)
+### Example 1: BIP 84 (Hierarchical Deterministic Wallets)
 #### Scenario: Multiple Account Management
 
 ##### Context
-Emily, a crypto enthusiast, holds various types of cryptocurrencies and wants to organize them efficiently. She wishes to have separate accounts for her Bitcoin, Ethereum, and Litecoin holdings.
+Emily, a crypto enthusiast, has diverse needs for managing her digital assets. She wants to separate her main funds from the stacking service provider she's using. For this, she needs a wallet structure that allows for clear separation while maintaining privacy and security.
 
 ##### Use Case
-Emily uses a wallet that supports BIP 44 standard. BIP 44 allows for multi-account hierarchy under one master seed. This means she can generate different accounts for each cryptocurrency type while maintaining them under one master seed. Her derivation paths might look like:
-- Bitcoin: `m/44'/0'/0'`
-- Ethereum: `m/44'/60'/0'`
-- Litecoin: `m/44'/2'/0'`
+Emily opts to use the BIP 84 derivation path, which is designed for native SegWit addresses, providing her with an efficient and cost-effective way to manage her Bitcoin transactions. She uses two different paths within BIP 84 to separate her funds:
+- For her main wallet, where she keeps the majority of her funds, Emily uses the derivation path `m/84'/0'/0'`. This path is for her personal use, ensuring that her primary funds remain secure and private.
+- For the stacking service provider, which requires her to share her extended public key (xpub) for operational purposes, she uses the derivation path `m/84'/0'/1'`. This separation allows her to maintain privacy and security, as the service provider only has visibility over the funds in the dedicated stacking account.
 
 ##### Advantage
-This method gives Emily a structured way to manage different cryptocurrencies while keeping them secure and separate. She can also easily back up her wallet using the master seed.
+By using two distinct accounts under the BIP 84 standard, Emily efficiently manages her assets, keeping her main funds secure and private while still participating in stacking services.
 
 ### Example 2: BIP 49 (SegWit Compatibility in P2SH)
-#### Scenario: Enhancing Transaction Efficiency and Lowering Fees
+#### Scenario: Migrating to a More Efficient Wallet System
 
 ##### Context
-John, a small business owner, frequently receives and sends Bitcoin payments. He is looking for ways to reduce transaction fees and enhance the efficiency of transactions.
+John has been using an older Bitcoin wallet system. As his transactions grows, he's looking for more efficiency in his transactions, particularly in terms of speed and reduced fees. He's aware that newer wallet technologies (e.g specter) offer significant improvements and is considering migrating to a wallet that supports these advancements.
 
 ##### Use Case
 John's wallet supports BIP 49, which is designed for SegWit compatibility in a Pay to Script Hash (P2SH) format. This means his wallet generates addresses that start with '3'. His derivation path looks like: `m/49'/0'/0'`.
 
 ##### Advantage
-By using BIP 49, John benefits from lower transaction fees compared to traditional addresses and improved transaction speed due to SegWit's efficiency in block space usage. This is particularly beneficial for a business with frequent transactions.
+By using BIP 49, John benefits from lower transaction fees compared to traditional addresses and improved transaction speed due to SegWit's efficiency in block space usage.
 
 ### Example 3: BIP 84 (Native SegWit Bech32 Addresses)
 #### Scenario: Maximizing Efficiency and Exploring Testnets
@@ -132,7 +129,6 @@ Moreover, Lisa is also experimenting with Bitcoin testnet. Testnets are crucial 
 
 ##### Advantage
 Using BIP 84, Lisa experiences lower fees and faster transactions in her main wallet. With the addition of the testnet path, she can safely experiment and learn without risking her actual Bitcoin. This approach not only future-proofs her wallet as the industry moves towards broader adoption of SegWit but also enhances her understanding and proficiency in managing digital assets.
-
 
 ### Conclusion
 In each of these scenarios, the use of different derivation paths (BIP 44, BIP 49, and BIP 84) reflects a specific need and functionality in managing cryptocurrencies:
