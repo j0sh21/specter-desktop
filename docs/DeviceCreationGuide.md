@@ -41,7 +41,8 @@ Welcome to the Device Creation Guide for Specter Hardware Wallets. In this compr
         - KeepKey: A user-friendly wallet with a large display, providing a secure environment for cryptocurrency storage and transactions. (Image: /src/cryptoadvance/specter/static/img/devices/keepkey_icon.svg)
         - Ledger: Known for its security and sleek design, Ledger wallets support a wide range of cryptocurrencies. (Image: /src/cryptoadvance/specter/static/img/devices/ledger_icon.svg)
         - Trezor: One of the first hardware wallets in the market, renowned for its ease of use and robust security measures. (Image: /src/cryptoadvance/specter/static/img/devices/trezor_icon.svg)
-        - Keystone: Formerly known as Cobo Vault, Keystone wallets offer a high-security solution with air-gapped QR code signing. ![alt text](/src/cryptoadvance/specter/static/img/devices/keystone_icon.svg){:height="25px" width="25px"}
+        - Keystone: Formerly known as Cobo Vault, Keystone wallets offer a high-security solution with air-gapped QR code signing. <img src="/src/cryptoadvance/specter/static/img/devices/keystone_icon.svg" alt="Keystone Wallet" width="25" height="25"/>
+
   
 ## Step-by-Step Guide for Device Creation in Specter
 
