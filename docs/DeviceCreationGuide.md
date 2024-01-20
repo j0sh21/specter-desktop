@@ -12,13 +12,10 @@ Welcome to the Device Creation Guide for Specter Hardware Wallets. In this compr
 - **User background:** Alice, a traveling consultant, requires a secure yet portable solution to manage her digital assets. She often moves between locations and needs a reliable way to carry her cryptocurrency wallet without internet connectivity risks.
 - **Use Case:** Alice opts for an SD-Card hardware wallet. Its small size and portability make it an ideal choice for her travels. She can easily carry it in her purse or securely store it in a safe. The SD-Card wallet allows her to access her digital assets on the go, without the need for an internet connection, reducing the risk of online threats. Moreover, she uses the SD-Card as a secure backup, storing a duplicate in a safe location.
 - **Supported Devices:**
-        - BitBox02: A Swiss-made hardware wallet known for its security and simplicity. It and features both SD-Card and USB interfaces for enhanced flexibility. (Image: /src/cryptoadvance/specter/static/img/devices/bitbox02_icon.svg)
-        - Coldcard: A popular choice for a secure and dedicated Bitcoin hardware wallet. Known for its advanced security features and ability to work with PSBT (Partially Signed Bitcoin Transactions). (Image: /src/cryptoadvance/specter/static/img/devices/coldcard_icon.svg)
-        - Cobo: Designed for durability and security, Cobo is a multi-cryptocurrency hardware wallet with SD-Card support for backup and recovery. (Image: /src/cryptoadvance/specter/static/img/devices/cobo_icon.svg)
-        - Passport: This device emphasizes user-friendly design and privacy, offering air-gapped operation via QR codes and SD-Card backup. (Image: /src/cryptoadvance/specter/static/img/devices/passport_icon.svg)
-
-
-
+        - BitBox02  <img src="/src/cryptoadvance/specter/static/img/devices/bitbox02_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: A Swiss-made hardware wallet known for its security and simplicity. It and features both SD-Card and USB interfaces for enhanced flexibility. (Image: /src/cryptoadvance/specter/static/img/devices/bitbox02_icon.svg)
+        - Coldcard  <img src="/src/cryptoadvance/specter/static/img/devices/coldcard_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: A popular choice for a secure and dedicated Bitcoin hardware wallet. Known for its advanced security features and ability to work with PSBT (Partially Signed Bitcoin Transactions). (Image: /src/cryptoadvance/specter/static/img/devices/coldcard_icon.svg)
+        - Cobo  <img src="/src/cryptoadvance/specter/static/img/devices/cobo_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: Designed for durability and security, Cobo is a multi-cryptocurrency hardware wallet with SD-Card support for backup and recovery. (Image: /src/cryptoadvance/specter/static/img/devices/)
+        - Passport  <img src="/src/cryptoadvance/specter/static/img/devices/passport_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: This device emphasizes user-friendly design and privacy, offering air-gapped operation via QR codes and SD-Card backup. (Image: /src/cryptoadvance/specter/static/img/devices/)
 
 
 ### QR Code Wallets
@@ -27,8 +24,8 @@ Welcome to the Device Creation Guide for Specter Hardware Wallets. In this compr
 - **User background:** Bob, a frequent user of cryptocurrency for transactions, often finds himself in public places like coffee shops or conferences. He is concerned about the security risks associated with connecting his wallet to public Wi-Fi or potentially compromised devices.
 - **Use Case:** Bob uses a QR Code wallet, which provides enhanced security through minimal direct connections. When making transactions, he simply scans the QR code displayed by his wallet. This method eliminates the need to connect to potentially insecure networks or devices, significantly reducing the risk of digital asset theft. The QR Code wallet’s ability to operate with minimal connectivity makes it an excellent choice for secure, hassle-free transactions in public settings.
 - **Supported Devices:**
-        - Jade: A budget-friendly hardware wallet with QR code functionality for secure and offline transactions. (Image: /src/cryptoadvance/specter/static/img/devices/jade_icon.svg)
-        - SeedSigner: An open-source project that focuses on creating a secure, offline transaction signing device using QR codes. (Image: /src/cryptoadvance/specter/static/img/devices/seedsigner_icon.svg)
+        - Jade  <img src="/src/cryptoadvance/specter/static/img/devices/jade_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: A budget-friendly hardware wallet with QR code functionality for secure and offline transactions.
+        - SeedSigner  <img src="/src/cryptoadvance/specter/static/img/devices/seedsigner_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: An open-source project that focuses on creating a secure, offline transaction signing device using QR codes.
 
 ### USB Wallets
 
@@ -37,11 +34,11 @@ Welcome to the Device Creation Guide for Specter Hardware Wallets. In this compr
 - **User background:** Carol, a small business owner, accepts cryptocurrencies in her store. She needs a wallet that is both easy to use and compatible with various devices since she regularly deals with different types of transactions.
 - **Use Case:** Carol chooses a USB wallet for its user-friendly interface and direct connectivity. The USB wallet's plug-and-play nature makes it simple to connect to her store's point-of-sale system or her personal computer. Its compatibility with various devices allows her to efficiently manage transactions without the need for specialized hardware. The USB wallet's intuitive interface makes it easy for Carol to navigate, making it an ideal choice for her everyday business transactions.
 - **Supported Devices:**
-        - BitBox02: Swiss-made hardware wallet, offering a blend of security and simplicity. (Image: /src/cryptoadvance/specter/static/img/devices/bitbox02_icon.svg)
-        - KeepKey: A user-friendly wallet with a large display, providing a secure environment for cryptocurrency storage and transactions. (Image: /src/cryptoadvance/specter/static/img/devices/keepkey_icon.svg)
-        - Ledger: Known for its security and sleek design, Ledger wallets support a wide range of cryptocurrencies. (Image: /src/cryptoadvance/specter/static/img/devices/ledger_icon.svg)
-        - Trezor: One of the first hardware wallets in the market, renowned for its ease of use and robust security measures. (Image: /src/cryptoadvance/specter/static/img/devices/trezor_icon.svg)
-        - Keystone: Formerly known as Cobo Vault, Keystone wallets offer a high-security solution with air-gapped QR code signing. <img src="/src/cryptoadvance/specter/static/img/devices/keystone_icon.svg" alt="Keystone Wallet" width="25" height="25"/>
+        - BitBox02  <img src="/src/cryptoadvance/specter/static/img/devices/bitbox02_icon.svg" alt="BitBox02 Wallet" width="25" height="25"/>: Swiss-made hardware wallet, offering a blend of security and simplicity.
+        - KeepKey  <img src="/src/cryptoadvance/specter/static/img/devices/keepkey_icon.svg" alt="Keystone Wallet" width="25" height="25"/>: A user-friendly wallet with a large display, providing a secure environment for cryptocurrency storage and transactions.
+        - Ledger  <img src="/src/cryptoadvance/specter/static/img/devices/ledger_icon.svg" alt="Ledger Wallet" width="25" height="25"/>: Known for its security and sleek design, Ledger wallets support a wide range of cryptocurrencies.
+        - Trezor  <img src="/src/cryptoadvance/specter/static/img/devices/trezor_icon.svg" alt="Trezor Wallet" width="25" height="25"/>: One of the first hardware wallets in the market, renowned for its ease of use and robust security measures.
+        - Keystone <img src="/src/cryptoadvance/specter/static/img/devices/keystone_icon.svg" alt="Keystone Wallet" width="25" height="25"/>: Formerly known as Cobo Vault, Keystone wallets offer a high-security solution with air-gapped QR code signing. 
 
   
 ## Step-by-Step Guide for Device Creation in Specter
